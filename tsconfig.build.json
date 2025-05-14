@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"module": "esnext",
+		"target": "es6",
+		"lib": [
+			"es6",
+			"dom"
+		],
+		"declaration": true,
+		"declarationDir": "./dist",
+		"sourceMap": true,
+		"noUnusedLocals": true,
+		"downlevelIteration": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitAny": true,
+		"moduleResolution": "node"
+	},
+	"include": [
+		"src/wrapper"
+	]
+}
